@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Move Focus",
+    "steps": [
+      {
+        "image": "move_focus_01",
+        "keys": []
+      },
+      {
+        "image": "move_focus_02",
+        "keys": [
+          "cmd",
+          "j"
+        ]
+      },
+      {
+        "image": "move_focus_03",
+        "keys": [
+          "right_arrow"
+        ]
+      },
+      {
+        "image": "move_focus_04",
+        "keys": [
+          "return"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Move Line Up/Down",
+    "steps": [
+      {
+        "image": "move_line_up_down_01",
+        "keys": []
+      },
+      {
+        "image": "move_line_up_down_02",
+        "keys": [
+          "option",
+          "cmd",
+          "square_bracket_open"
+        ]
+      },
+      {
+        "image": "move_line_up_down_01",
+        "keys": [
+          "option",
+          "cmd",
+          "square_bracket_close"
+        ]
+      }
+    ]
+  }
+]

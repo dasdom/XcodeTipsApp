@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F28891C8280220B00098BCA5 /* TipsOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28891C7280220AF0098BCA5 /* TipsOverView.swift */; };
 		F2D618E628006B6800A6206F /* XcodeTipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D618E528006B6800A6206F /* XcodeTipsApp.swift */; };
-		F2D618E828006B6800A6206F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D618E728006B6800A6206F /* ContentView.swift */; };
+		F2D618E828006B6800A6206F /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D618E728006B6800A6206F /* TipView.swift */; };
 		F2D618EA28006B6900A6206F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D618E928006B6900A6206F /* Assets.xcassets */; };
 		F2D618ED28006B6900A6206F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D618EC28006B6900A6206F /* Preview Assets.xcassets */; };
+		F2D618F528006E9C00A6206F /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = F2D618F428006E9C00A6206F /* tips.json */; };
+		F2D618F7280070D000A6206F /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D618F6280070D000A6206F /* Step.swift */; };
+		F2D618F92800712F00A6206F /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D618F82800712F00A6206F /* Tip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F28891C7280220AF0098BCA5 /* TipsOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsOverView.swift; sourceTree = "<group>"; };
 		F2D618E228006B6800A6206F /* XcodeTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D618E528006B6800A6206F /* XcodeTipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTipsApp.swift; sourceTree = "<group>"; };
-		F2D618E728006B6800A6206F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2D618E728006B6800A6206F /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 		F2D618E928006B6900A6206F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2D618EC28006B6900A6206F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2D618EE28006B6900A6206F /* XcodeTips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XcodeTips.entitlements; sourceTree = "<group>"; };
+		F2D618F428006E9C00A6206F /* tips.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		F2D618F6280070D000A6206F /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		F2D618F82800712F00A6206F /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				F2D618E528006B6800A6206F /* XcodeTipsApp.swift */,
-				F2D618E728006B6800A6206F /* ContentView.swift */,
+				F28891C7280220AF0098BCA5 /* TipsOverView.swift */,
+				F2D618E728006B6800A6206F /* TipView.swift */,
+				F2D618F6280070D000A6206F /* Step.swift */,
+				F2D618F82800712F00A6206F /* Tip.swift */,
+				F2D618F428006E9C00A6206F /* tips.json */,
 				F2D618E928006B6900A6206F /* Assets.xcassets */,
 				F2D618EE28006B6900A6206F /* XcodeTips.entitlements */,
 				F2D618EB28006B6900A6206F /* Preview Content */,
@@ -129,6 +141,7 @@
 			files = (
 				F2D618ED28006B6900A6206F /* Preview Assets.xcassets in Resources */,
 				F2D618EA28006B6900A6206F /* Assets.xcassets in Resources */,
+				F2D618F528006E9C00A6206F /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D618E828006B6800A6206F /* ContentView.swift in Sources */,
+				F2D618F7280070D000A6206F /* Step.swift in Sources */,
+				F2D618F92800712F00A6206F /* Tip.swift in Sources */,
+				F2D618E828006B6800A6206F /* TipView.swift in Sources */,
+				F28891C8280220B00098BCA5 /* TipsOverView.swift in Sources */,
 				F2D618E628006B6800A6206F /* XcodeTipsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

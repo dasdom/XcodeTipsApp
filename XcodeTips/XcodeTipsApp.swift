@@ -8,7 +8,18 @@ import SwiftUI
 struct XcodeTipsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          TipsOverView(tips: tips())
         }
     }
+
+  func tips() -> [Tip] {
+    do {
+      let url = Bundle.main.url(forResource: "tips", withExtension: "json")!
+      let data = try Data(contentsOf: url)
+      return try JSONDecoder().decode([Tip].self, from: data)
+    } catch {
+      print("error: \(error)")
+      return []
+    }
+  }
 }
