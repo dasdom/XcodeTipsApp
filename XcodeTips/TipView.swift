@@ -142,7 +142,7 @@ struct NextButtonView: View {
         withAnimation(.linear) {
           stepIndex += 1
         }
-        withAnimation(.linear.delay(1)) {
+        withAnimation(.linear.delay(0.8)) {
           mainIndex += 1
         }
       }

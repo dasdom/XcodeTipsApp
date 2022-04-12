@@ -24,6 +24,10 @@
         "keys": [
           "return"
         ]
+      },
+      {
+        "image": "move_focus_05",
+        "keys": []
       }
     ]
   },
@@ -49,6 +53,37 @@
           "cmd",
           "square_bracket_close"
         ]
+      },
+      {
+        "image": "move_line_up_down_03",
+        "keys": []
+      }
+    ]
+  },
+  {
+    "title": "Run/Stop",
+    "steps": [
+      {
+        "image": "run_stop_01",
+        "keys": []
+      },
+      {
+        "image": "run_stop_02",
+        "keys": [
+          "cmd",
+          "r"
+        ]
+      },
+      {
+        "image": "run_stop_01",
+        "keys": [
+          "cmd",
+          "dot"
+        ]
+      },
+      {
+        "image": "run_stop_03",
+        "keys": []
       }
     ]
   }

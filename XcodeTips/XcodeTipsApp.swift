@@ -9,6 +9,7 @@ struct XcodeTipsApp: App {
     var body: some Scene {
         WindowGroup {
           TipsOverView(tips: tips())
+            .frame(minWidth: 600)
         }
     }
 
